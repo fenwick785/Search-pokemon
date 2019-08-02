@@ -49,7 +49,7 @@ if($_POST){
         <tr>
         
             <td><?=$tab[0];?></td>
-            <td> <a href="index.php?id=<?=$tab[2]?>"><?=$tab[1];?></a></td>
+            <td> <a href="fiche.php?id=<?=$tab[2]?>"><?=$tab[1];?></a></td>
             <td> <?=$tab[2];?></td>
 </tr>
         <?php endforeach; ?>
@@ -109,7 +109,7 @@ if($_POST){
     </select>
   </div>
 
- <button type="submit" class="btn btn-dark col-md-12">ajouter</button>
+ <button type="submit" class="btn btn-dark col-md-12">rechercher</button>
  <br>
 </form>
 
